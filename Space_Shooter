@@ -1,0 +1,19 @@
+mov_speed = 1.75; // ARMAZENA A VELOCIDADE
+
+
+//VARIAVEL PARA CRIAR UM TIRO ESPECIAL
+shoot_explosive_timer = 0; //contador
+shoot_explosive_duration = 300; //Tempo em frames para o tiro ficar pronto
+shoot_explosive_ready = false; //Controla se o tiro está pronto ou não
+
+//ARMAZENAR O ID DO SISTEMA DE PARTICULA CRIADO
+particle_system_shoot = noone;
+
+
+hp_player = 5;
+
+//VARIAVEL PARA IDENTIFICAR SE O HP DIMINUIU
+previous_hp = hp_player;
+
+//VARIAVEL PARA CONTROLAR SE ESTOU VULNERAVEL
+vulnerable = true;

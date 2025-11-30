@@ -1,0 +1,3 @@
+//FAZENDO O TEMPO QUE FICA NA TELA O FLASH
+
+alarm[0] = 2;

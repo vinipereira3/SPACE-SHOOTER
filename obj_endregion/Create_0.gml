@@ -1,0 +1,1 @@
+hspeed = obj_enemy_basic.hspeed;
